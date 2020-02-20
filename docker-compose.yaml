@@ -1,0 +1,8 @@
+version: "3"
+services:
+    web:
+      build: .
+      container_name: node-demo-v1
+      image: tientv/node-demo
+      ports:
+        - 7001:7001
